@@ -1,0 +1,30 @@
+#main-nav ul{
+   list-style: none;
+}
+
+#main-nav a{
+  text-decoration: none;
+  color:black;
+}
+
+#main-nav a:hover{
+    color:rgb(125, 165, 125);
+  }
+
+#main-nav a:visited{
+    color:red;
+  }
+
+#main-nav li{
+   display: inline-block;
+   padding: 8px;
+   margin: 5px;
+   background-color: beige;
+   border: 2px solid burlywood;
+   border-radius: 8px;
+   box-shadow: 2px 2px 5px 4px rgb(153, 148, 141);
+}
+
+#main-nav li:hover{
+    font-size: 18px;
+}
