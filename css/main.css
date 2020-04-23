@@ -2,3 +2,24 @@
 @import "nav.css";
 @import "card.css";
 @import "footer.css";
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(124, 124, 105);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
