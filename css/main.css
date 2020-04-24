@@ -96,3 +96,9 @@ body{
         flex-direction: row;
     }
 }
+
+@media (max-width:600px){
+    #f-img{
+        flex-direction: column;
+    }
+}
