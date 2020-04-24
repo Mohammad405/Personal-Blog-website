@@ -1,21 +1,26 @@
-#main-nav ul{
+#main-nav ul,
+#b-nav ul{
    list-style: none;
 }
 
-#main-nav a{
+#main-nav a,
+#b-nav a{
   text-decoration: none;
   color:black;
 }
 
-#main-nav a:hover{
+#main-nav a:hover,
+#b-nav a:hover{
     color:rgb(125, 165, 125);
   }
 
-#main-nav a:visited{
+#main-nav a:visited,
+#b-nav a:visited{
     color:red;
   }
 
-#main-nav li{
+#main-nav li,
+#b-nav li{
    display: inline-block;
    padding: 8px;
    margin: 5px;
@@ -25,6 +30,7 @@
    box-shadow: 2px 2px 5px 4px rgb(153, 148, 141);
 }
 
-#main-nav li:hover{
+#main-nav li:hover,
+#b-nav li:hover{
     font-size: 18px;
 }
