@@ -62,6 +62,29 @@ body{
 
 .bees{
     background-image: url(../img/Bees.jpg);
+}
+
+.elephant{
+    background-image: url(../img/elephant.jpg);
+}
+
+.hourse{
+    background-image: url(../img/Horse.jpg);
+}
+
+.space {
+    background-image: url(../img/space.jpg);
+}
+
+.turtle {
+    background-image: url(../img/turtle.jpg);
+}
+
+.warriors {
+    background-image: url(../img/warriors.jpg);
+}
+
+.back{
     background-size: cover;
     display: flex;
     align-items: center;
