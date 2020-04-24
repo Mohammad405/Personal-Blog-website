@@ -1,4 +1,5 @@
-#main-footer{
+#main-footer,
+#b-footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,23 +9,27 @@
     margin: 15px 0 0 0;
 }
 
-#main-footer li img{
+#main-footer li img
+#b-footer li img{
      width: 30px;
      height: 30px;
      margin: 0 10px 0 0;
 }
 
-#main-footer ul{
+#main-footer ul,
+#b-footer ul{
     list-style: none;
 }
 
-#main-footer li{
+#main-footer li,
+#b-footer li {
     display: inline-block;
     padding: 4px;
     margin: 5px;
 }
 
-#main-footer p {
+#main-footer p,
+#b-footer p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.8em;
     text-shadow: 2px 2px 3px gray;
@@ -40,7 +45,8 @@ span{
 
 
 @media (min-width:1100px){
-    #main-footer{
+    #main-footer,
+    #b-footer {
         flex-direction: row;
     }
 }
