@@ -6,7 +6,7 @@
 body{
     width: 90%;
     margin: 0 auto;
-    background-color: #7c7c69;
+    background-color: #7c7c69ec;
 }
 
 #main{
@@ -25,9 +25,18 @@ body{
     border-radius: 10px;
 }
 
+#f-img{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+
+
 #f-img img{
     border: 4px solid darkgray;
     border-radius: 20%;
+    margin: 0 20px 0 0;
 }
 
 .side p {
