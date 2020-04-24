@@ -52,6 +52,21 @@ body{
     justify-content: space-evenly;
 }
 
+.content a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 4px 4px 10px gray;
+    font-size: 3em;
+    background-color: rgb(250, 248, 248, 20%);
+}
+
+.bees{
+    background-image: url(../img/Bees.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (min-width:900px){
     #main{
