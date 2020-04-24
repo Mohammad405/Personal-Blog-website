@@ -1,0 +1,41 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: auto;
+    background-color: rgb(146, 138, 127);
+    border: 5px solid rgb(65, 60, 54);
+    border-radius: 5%;
+    padding: 20px;
+    margin: 15px;
+}
+
+.box img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 5px rgb(248, 239, 239);
+}
+
+.box h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-shadow: 5px 5px 5px  rgb(247, 240, 240);
+}
+
+.box p {
+   font-size:20px;
+}
+
+@media (min-width: 900px){
+    .box{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .box img{
+        margin: 0 20px 0 0;
+    }
+}
