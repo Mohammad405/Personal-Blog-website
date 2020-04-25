@@ -45,6 +45,11 @@ body{
     letter-spacing: initial;
 }
 
+.side blockquote {
+    font-style: italic;
+    font-weight: 900;
+}
+
 .content{
     display: flex;
     flex-direction: row;
