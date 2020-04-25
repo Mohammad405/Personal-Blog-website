@@ -31,6 +31,8 @@
    border: 2px solid burlywood;
    border-radius: 8px;
    box-shadow: 2px 2px 5px 4px rgb(153, 148, 141);
+   width: 100px;
+   text-align: center;
 }
 
 #main-nav li:hover,
@@ -42,6 +44,13 @@
 @media(max-width:600px){
 #main-nav ul,
 #b-nav ul{
-  font-size: 25px;
+  font-size: 30px;
+  flex-direction: column;
+  text-align: center;
+}
+
+#main-nav li,
+#b-nav li{
+  width: 300px;
 }
 }
