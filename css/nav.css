@@ -1,6 +1,9 @@
 #main-nav ul,
 #b-nav ul{
    list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
 }
 
 #main-nav a,
@@ -33,4 +36,12 @@
 #main-nav li:hover,
 #b-nav li:hover{
     font-size: 18px;
+}
+
+
+@media(max-width:600px){
+#main-nav ul,
+#b-nav ul{
+  font-size: 25px;
+}
 }
