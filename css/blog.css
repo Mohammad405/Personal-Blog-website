@@ -16,3 +16,33 @@ body{
     margin: 15px;
 }
 
+.author-details{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.author-details img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.author-details h3{
+   font-family: fantasy;
+   font-size: 25px;
+}
+
+.author-details p{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 900px){
+    .author-details{
+        flex-direction:column;
+        justify-content: space-around;
+    }
+
+}
